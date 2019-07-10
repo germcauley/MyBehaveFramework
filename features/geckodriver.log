@@ -92,3 +92,17 @@ Can't find symbol 'GetGraphicsResetStatus'.
 1548953628789	Marionette	INFO	Listening on port 52874
 1548953628839	Marionette	WARN	TLS certificate errors will be ignored for this session
 1548953638611	Marionette	INFO	Stopped listening on port 52874
+1562779562250	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/sq/xhtw_lyx2lg4bdtfzlwwjgyc0000gp/T/rust_mozprofile.05lvDq5iC4O6"
+1562779565445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562779565445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562779565445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562779569789	Marionette	INFO	Listening on port 50979
+1562779569849	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562779572197	Marionette	INFO	Stopped listening on port 50979
+1562779926024	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/sq/xhtw_lyx2lg4bdtfzlwwjgyc0000gp/T/rust_mozprofile.T0dB28S33dGI"
+1562779926782	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562779926783	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562779926783	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562779928502	Marionette	INFO	Listening on port 51109
+1562779928584	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562779932918	Marionette	INFO	Stopped listening on port 51109
