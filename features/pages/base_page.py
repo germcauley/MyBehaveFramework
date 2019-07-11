@@ -8,9 +8,13 @@ class BasePage(Browser):
     def navigate(self, address):
         self.driver.get(address)
 
+    def refresh(self):
+        self.driver.refresh()
+
+    def get_title(self):
+        return self.browser.title
 
 
-    HEADER_TEXT = (By.XPATH, "//h1")
-    SEARCH_FIELD = (By.ID, "search")
-    SUBMIT_BUTTON = (By.CLASS_NAME, "search-form__button")
+
+
 
