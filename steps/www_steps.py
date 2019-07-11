@@ -26,9 +26,11 @@ def step_impl(context):
     context.home_page.click_cookie()
     time.sleep(5)
 
+
 @When('I click products in the mega menu')
 def step_impl(context):
     context.home_page.mega_menu_products_click()
+
 
 @Then('Mortgages tab appears')
 def step_impl(context):

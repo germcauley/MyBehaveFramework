@@ -10,10 +10,10 @@ class BBPAGE(BasePage):
     #     self.driver.get(address)
     #     time.sleep(5)
 
-    # def cookie_click(self):
-    #     COOKIE_BUTTON = self.driver.find_element(By.CSS_SELECTOR,'button.optanon-allow-all')
-    #     COOKIE_BUTTON.click()
-    #     time.sleep(2)
+    def cookie_click(self):
+        COOKIE_BUTTON = self.driver.find_element(By.CSS_SELECTOR,'button.optanon-allow-all')
+        COOKIE_BUTTON.click()
+        time.sleep(2)
 
     def search_bca(self, search_term):
         SEARCH_BAR = self.driver.find_element(By.CSS_SELECTOR,'.c-mm-condensed__search-form-input')

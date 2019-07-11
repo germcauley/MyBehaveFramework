@@ -9,9 +9,9 @@ class HomePage(BasePage):
     def __init__(self):
         BasePage.__init__(self)
 
-    # def click_cookie(self):
-    #     COOKIE_BUTTON = self.driver.find_element(By.CSS_SELECTOR,".accept-cookie-container")
-    #     COOKIE_BUTTON.click()
+    def click_cookie(self):
+        COOKIE_BUTTON = self.driver.find_element(By.CSS_SELECTOR,".accept-cookie-container")
+        COOKIE_BUTTON.click()
 
     # def navigate(self, address):
     #     self.driver.get(address)
