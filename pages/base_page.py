@@ -3,7 +3,12 @@ from browser import Browser
 from selenium.webdriver.common.by import By
 import time
 
-class BasePage(Browser):
+class BasePage(object):
+
+    def __init__(self, context):
+        self.context = context
+        self.driver = context.driver
+        self.timeout = 30
 
     def navigate(self, address):
         self.driver.get(address)

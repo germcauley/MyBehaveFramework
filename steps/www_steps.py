@@ -1,6 +1,8 @@
 from behave import *
 import time
 from hamcrest import *
+
+
 '''
 
 @Given('I open BOI homepage')
@@ -21,7 +23,8 @@ def step_impl(context, search_term):
 def step_impl(context):
     context.home_page.navigate('https://www.bankofireland.com/')
 
-@When('I click the Cookie accept button')
+
+@step('I click the Cookie accept button')
 def step_impl(context):
     context.home_page.click_cookie()
     time.sleep(5)
