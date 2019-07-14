@@ -1,4 +1,3 @@
-from nose.tools import assert_equal, assert_true
 from behave import *
 from selenium.webdriver.common.by import By
 
