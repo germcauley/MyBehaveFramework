@@ -8,3 +8,9 @@ def step_impl(context):
     page = BasePage()
     page.navigate("https://www.bankofireland.com/")
     #assert_equal(context.home_page.get_page_title(), "PyPI - the Python Package Index : Python Package Index")
+
+
+@step('I refresh the page')
+def step_impl(context):
+    page = BasePage()
+    page.refresh()

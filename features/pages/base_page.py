@@ -15,5 +15,10 @@ class BasePage(object):
     def navigate(self, address):
         self.driver.get(address)
 
+    def refresh(self):
+        self.driver.refresh()
+
+    def close(self):
+        self.driver.get()
 
 
