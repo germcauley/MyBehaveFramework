@@ -3,6 +3,6 @@ from pages.base_page import BasePage
 
 class HomePage(BasePage):
 
-    def refresh(context):
+    def wwwrefresh(context):
         context.driver.refresh()
 

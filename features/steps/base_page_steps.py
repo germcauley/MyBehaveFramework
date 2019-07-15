@@ -1,4 +1,5 @@
 from pages.base_page import BasePage
+import time
 from behave import *
 from selenium.webdriver.common.by import By
 
@@ -12,5 +13,6 @@ def step_impl(context):
 
 @step('I refresh the page')
 def step_impl(context):
-    page = BasePage()
+    page = context
     page.refresh()
+    time.sleep(5)
