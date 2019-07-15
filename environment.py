@@ -6,10 +6,10 @@ from pages.home_page import HomePage
 from pages.business_banking_page import BBPAGE
 
 def before_all(context):
-    context.browser = Browser()
-    context.basepage = BasePage()
-    context.home_page = HomePage()
-    context.business_banking_page = BBPAGE()
+    context.browser = Browser
+    context.basepage = BasePage
+    context.home_page = HomePage
+    context.business_banking_page = BBPAGE
     # context.search_results_page = SearchResultsPage()
 
 def after_all(context):
